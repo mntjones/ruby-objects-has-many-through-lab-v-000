@@ -12,7 +12,7 @@ class Appointment
   end
   
   def doctor
-    
+    doctor.add_appointment(self)
   end
   
 end
